@@ -1,6 +1,11 @@
-const Child = () => {
+interface ChildProps {
+    color: string;
+}
+
+
+const Child: React.FC<ChildProps> = ({ color }) => {
   return (
-    <div>Child</div>
+    <div>{color}</div>
   )
 }
 
