@@ -1,6 +1,8 @@
 import ReactDOM from "react-dom/client";
 
-import FindUser from "./state/find-user/FindUser";
+import EventComponent from "./events/EventComponent";
+
+
  
 // Get a reference to the div with ID root
 const el = document.getElementById("root");
@@ -12,7 +14,7 @@ const root = ReactDOM.createRoot(el!);
 const App = () => {
   return (
     <div>
-    <FindUser />
+    <EventComponent />
     </div>
   );
 };
